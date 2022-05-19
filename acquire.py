@@ -40,7 +40,7 @@ def get_codeup_articles(use_cache=True):
 
     df = pd.DataFrame(articles)
     df.to_json('codeup_blog_articles.json', orient='records')
-    return 
+    return df
 
 
 # Acquire InShorts Articles
